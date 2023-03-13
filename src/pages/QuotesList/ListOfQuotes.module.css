@@ -1,0 +1,26 @@
+.wrapper {
+  overflow-y: scroll;
+  height: 80vh;
+}
+.quote-item-container {
+  background: #282828;
+  margin: 5px 3px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.quote-content {
+  color: #fff;
+}
+
+.author-likeicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.author-likeicon h5 {
+  font-family: cursive;
+  color: grey;
+}
